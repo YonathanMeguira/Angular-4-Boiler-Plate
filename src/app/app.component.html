@@ -1,0 +1,14 @@
+<div layout="row" class="mt-5">
+  <button class="ml-5 mr-3" md-raised-button color="primary" routerLink="first" routerLinkActive="page-active">First Page
+  </button>
+  <button class="mr-5" md-raised-button color="primary" routerLink="second" routerLinkActive="page-active">Second Page
+  </button>
+</div>
+<router-outlet></router-outlet>
+
+
+<style>
+  .page-active {
+    background-color: red !important;
+  }
+</style>
